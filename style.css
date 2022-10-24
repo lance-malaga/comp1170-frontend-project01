@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'BonVivant Bold';
+    src: url(./assets/fonts/BonVivantSerif-Bold.otf);
+}
+@font-face {
+    font-family: 'BonVivant';
+    src: url(./assets/fonts/BonVivantSerif.otf);
+}
+
+/* 
+    font-family: 'BonVivant, sans-serif';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Lance's Styles */
+
+/* Lance's Styles End */
