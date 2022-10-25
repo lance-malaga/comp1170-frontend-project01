@@ -132,4 +132,16 @@ body {
 .restaurantImgs img:first-child {
     margin-bottom: 20px;
 }
+
+.rightContent {
+    padding-top: 20px;
+}
+
+.rightContent p {
+    margin: 0;
+}
+
+.visionContent h1 {
+    margin: 90px 0 30px;
+}
 /* Lance's Styles End */
