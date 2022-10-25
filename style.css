@@ -68,9 +68,12 @@ body {
     font-weight: 400;
     font-size: 14px;
     background: #292E1E;
+    border: 1px solid #292E1E;
     border-radius: 20px;
     padding: 17px 30px;
     color: #E9D9C7;
+    cursor: pointer;
+    transition: background-color .5s;
 }
 
 .buttonContainer button:last-child {
@@ -79,6 +82,11 @@ body {
     border-radius: 20px;
     color: #212220;
     margin-left: 30px;
+}
+
+.buttonContainer button:hover {
+    background-color: #C8CD49;
+    border-color: #C8CD49;
 }
 
 /* mission vision section */
