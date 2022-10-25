@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BonVivant Bold';
+    src: url(../../assets/fonts/BonVivantSerif-Bold.otf);
+}
+@font-face {
+    font-family: 'BonVivant';
+    src: url(../../assets/fonts/BonVivantSerif.otf);
+}
+
+body {
+    font-family: 'BonVivant', sans-serif;
+    font-size: 12px;
+}
