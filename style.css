@@ -8,7 +8,7 @@
 }
 
 /* 
-    font-family: 'BonVivant, sans-serif';
+    font-family: 'BonVivant', sans-serif';
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
 */
@@ -18,8 +18,32 @@ body {
     font-weight: 400;
     font-size: 18px;
     background-color: #F9F6F3;
+    color: #212220;
+    margin: 0;
 }
 
 /* Lance's Styles */
+.landingSection {
+    padding: 20px 0 45px 100px;
+    display: flex;
+    height: 90vh;
+}
 
+.contentContainer {
+    padding-top: 120px;
+    width: 45%;
+}
+
+.contentContainer h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 65px;
+    letter-spacing: -3px;
+}
+
+.landingSection img {
+    position: absolute;
+    right: 0;
+}
 /* Lance's Styles End */
