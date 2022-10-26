@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Imported Fonts --> 
+    <!-- Imported Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- Style -->
     <link rel="stylesheet" href="style.css">
     <title>Roast Menu</title>
 </head>
+
 <body>
     <!-- Hedieh Start -->
 
@@ -22,101 +26,125 @@
     </div>
     <!-- Hedieh End -->
 
+
+
+
     <!-- Juliet Start -->
     <div>
-         <!-- 1 Featured Drink Section -->
+        <!-- 1 Featured Drink Section -->
         <div class="main-image">
-            <img src="matcha.drink.png" alt="">
 
             <div class="background-text">
-                <h1>DRINK ME</h1>
+                <h1 id="drinkHeader">DRINK</h1>
+                <h1 id="meHeader">ME</h1>
             </div>
+            <img src="../../assets/images/menu-page/matcha-drink.png" id="matchaDrink" alt="">
+        </div>
 
-        </div>
-    
         <div class="lower-links">
-            <a href="">POPULAR PICKS</a>
-            <a href="">DRINKS MENU</a>
-            <a href="">DESSERTS MENU</a>
+            <a href="" id="popularMenu">POPULAR PICKS</a>
+            <a href="" id="drinkMenu">DRINKS MENU</a>
+            <a href="" id="dessertMenu">DESSERTS MENU</a>
         </div>
+
+        <hr class="divider-1">
 
         <!-- 2 Drink Section -->
-        <div class="signature-drinks">
-            <h1>Signature Drinks</h1>
+        <div class="drinks-container">
+            <div class="drinks-header">
+                <h1 id="signatureHeader">Signature</h1>
+                <h1 id="signatureDrinkHeader">Drinks</h1>
+            </div>
+
             <div class="drink-menu-container">
                 <div class="drink-left-column">
-                     <h3>MAPLE MACCHIATO</h3>
-                    <br>
+                    <h3>MAPLE MACCHIATO</h3>
+                    <hr>
                     <h3>SPANISH LATTE</h3>
-                    <br>
+                    <hr>
                     <h3>JUST PEANUT BUTTER</h3>
-                    <br>
+                    <hr>
                     <h3>STRAWBERRY LEMONADE</h3>
-                    <br>
+                    <hr>
                     <h3>MATCHA MADE IN HEAVEN</h3>
                 </div>
 
-               <div class="drink-right-column">
+                <div class="drink-right-column">
                     <h3>MAPLE MACCHIATO</h3>
+                    <hr>
                     <div class="drink-right-details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam quibusdam tenetur, eum iure. 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam quibusdam tenetur,
+                            eum iure.
 
-                        $10</p>
+                            $10</p>
                     </div>
-                
-                <img src="iced.drink.png" alt="">
-                <img src="Ellipse.green.png" alt="">
-                
-               </div>
+
+                    <img src="iced-drink.png" alt="">
+                    <img src="Ellipse-green.png" alt="">
+
+                </div>
             </div>
         </div>
+
+        <hr>
+
         <!-- 3 Dessert Section -->
 
-    <div class="pastry-left-column">
-        <img src="pastry.png" alt="">
-       <div class="text-pastry-background">
-        <h1>PASTRIES</h1>
-        <h1>PASTRIES</h1>
-        <h1>PASTRIES</h1>
-       </div>
-
-    </div>
-
-    <div class="right-pastry-header">
-        <h1>Freshly</h1>
-        <h1>BAKED</h1>
-    </div>
-    <div class="pastry-menu-container">
         <div class="pastry-left-column">
-             <h3>THE BEIGNET SUITE</h3>
-            <br>
-            <h3>PEACHES N' CREME</h3>
-            <br>
-            <h3>SLICE OF JOY</h3>
-            <br>
-            <h3>CRÊPE DE LECHE</h3>
-            <br>
-            <h3>BON SOUFFLÉ</h3>
-        </div>
-    <div class="pastry-right-column">
-        <h3>THE BEIGNET SUITE</h3>
-            <div class="pastry-right-details">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam quibusdam tenetur, eum iure. 
 
-                $14</p>
-
+            <div class="text-pastry-background">
+                <h1 id="pastries1">PASTRIES</h1>
+                <h1 id="pastries2">PASTRIES</h1>
+                <h1 id="pastries3">PASTRIES</h1>
+                <img src="../../assets/images/menu-page/pastry.png" alt="">
             </div>
-        
-    </div>
-       
 
-    </div>
-    <!-- Juliet End -->
+        </div>
 
-    <!-- Alexander Start -->
-    <div>
-        Footer
-    </div>
-    <!-- Alexander End -->
+        <div class="right-pastry-header">
+            <h1>Freshly</h1>
+            <h1>BAKED</h1>
+        </div>
+        <div class="pastry-menu-container">
+            <div class="pastry-right-column">
+                <h3>THE BEIGNET SUITE</h3>
+                <hr>
+                <h3>PEACHES N' CREME</h3>
+                <hr>
+                <h3>SLICE OF JOY</h3>
+                <hr>
+                <h3>CRÊPE DE LECHE</h3>
+                <hr>
+                <h3>BON SOUFFLÉ</h3>
+            </div>
+            <div class="pastry-left-column">
+                <h3>THE BEIGNET SUITE</h3>
+                <hr>
+                <div class="pastry-left-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam quibusdam tenetur, eum
+                        iure.
+
+                        $14</p>
+                </div>
+            </div>
+        </div>
+        <!-- Juliet End -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Alexander Start -->
+        <div>
+            Footer
+        </div>
+        <!-- Alexander End -->
 </body>
+
 </html>

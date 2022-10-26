@@ -2,6 +2,7 @@
     font-family: 'BonVivant Bold';
     src: url(../../assets/fonts/BonVivantSerif-Bold.otf);
 }
+
 @font-face {
     font-family: 'BonVivant';
     src: url(../../assets/fonts/BonVivantSerif.otf);
@@ -10,4 +11,154 @@
 body {
     font-family: 'BonVivant', sans-serif;
     font-size: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    background-color: #F9F6F3;
+}
+
+/* Featured Drink Image */
+.background-text {
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 245px;
+}
+.background-text h1 {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 160px;
+    text-transform: uppercase;
+    color: #6F6C3C;
+}
+
+#drinkHeader {
+    position: relative;
+    right: 80px;
+}
+   
+
+#meHeader {
+    position: relative;
+    left: 244px;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lower Links */
+.lower-links{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.lower-links a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+/* POPULAR PICKS */
+#popularMenu {
+ 
+}
+
+/* DRINKS MENU */
+#drinkMenu {
+    padding: 0px 300px;
+
+}
+
+/* DESSERT MENU */
+#dessertMenu {
+ 
+}
+
+
+
+/* Signature Drinks */
+/* .drinks-header{
+    display: flex;
+} */
+.drinks-header h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+#signatureHeader {
+    /* position: absolute; */
+    /* width: 288px;
+    height: 93px;
+    left: 100px;
+    top: 826px; */
+
+    font-size: 70px;
+    line-height: 93px;
+    letter-spacing: -3px;
+    color: #212220;
+    padding-left: 100px;
+}
+
+#signatureDrinkHeader {
+    /* position: absolute; */
+    /* width: 294px;
+    height: 107px;
+    left: 301px;
+    top: 876px; */
+
+    font-size: 80px;
+    line-height: 107px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    color: #98956A;
+    padding-left: 320px;
+}
+
+/* Drink Menu Container */
+
+.drink-menu-container {
+    /* position: absolute; */
+    /* width: 230.41px;
+    height: 260px;
+    left: 115px;
+    top: 1030px; */
+
+}
+
+
+/* Dessert Section| Menu List */
+
+.pastry-right-column {
+    /* position: absolute; */
+    /* width: 230.41px;
+    height: 260px;
+    left: 935px;
+    top: 1689.49px; */
+}
+.pastry-left-column img {
+    /* position: absolute; */
+    /* width: 635px;
+    height: 387px;
+    left: 93px;
+    top: 1625px; */
+}
+
+#pastries1 {
+}
+
+#pastries2 {
+
+}
+
+#pastries3 {
+    
 }
