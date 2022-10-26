@@ -18,8 +18,138 @@ body {
     font-weight: 400;
     font-size: 18px;
     background-color: #F9F6F3;
+    color: #212220;
+    margin: 0;
 }
 
 /* Lance's Styles */
+/* landing page */
+.landingSection {
+    padding: 20px 0 45px 100px;
+    display: flex;
+    height: 90vh;
+}
 
+.contentContainer {
+    padding-top: 120px;
+    width: 45%;
+}
+
+.contentContainer h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 65px;
+    letter-spacing: -3px;
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.contentContainer h1 span {
+    color: #98956A;
+}
+
+.contentContainer p {
+    margin: 0;
+}
+
+.landingSection img {
+    position: absolute;
+    right: 0;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 35px;
+}
+
+.buttonContainer button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background: #292E1E;
+    border: 1px solid #292E1E;
+    border-radius: 20px;
+    padding: 17px 30px;
+    color: #E9D9C7;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.buttonContainer button:last-child {
+    background: transparent;
+    border: 1px solid #85877C;
+    border-radius: 20px;
+    color: #212220;
+    margin-left: 30px;
+}
+
+.buttonContainer button:hover {
+    background-color: #C8CD49;
+    border-color: #C8CD49;
+}
+
+/* mission vision section */
+.missionVision {
+    padding: 0 100px 40px;
+    display: flex;
+}
+
+.missionVision h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #212220;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.leftContent h1 {
+    margin: 0 0 30px;
+    position: absolute;
+    bottom: -200px;
+    margin-left: 45px;
+    z-index: 1;
+}
+
+.leftContent h1 span {
+    margin-left: 120px;
+}
+
+.statementBg {
+    position: absolute;
+    width: 469px;
+    height: 38px;
+    margin-left: 150px;
+    bottom: -170px;
+    background: #C8CD49;
+}
+
+.restaurantImgs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 20px;
+}
+
+.restaurantImgs img:first-child {
+    margin-bottom: 20px;
+}
+
+.rightContent {
+    padding-top: 20px;
+}
+
+.rightContent p {
+    margin: 0;
+}
+
+.visionContent h1 {
+    margin: 90px 0 30px;
+}
 /* Lance's Styles End */
