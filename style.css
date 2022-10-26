@@ -153,3 +153,15 @@ body {
     margin: 90px 0 30px;
 }
 /* Lance's Styles End */
+
+/* Alex's style */
+.imageHolder {
+    display: flex;
+}
+
+.footerContent {
+    background-color: #79450B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
