@@ -108,7 +108,7 @@ hr{
 .drinks-header h1 span {
     margin-left: 200px;
     font-size: 80px;
-    line-height: 7px;
+    line-height: 12px;
     letter-spacing: -3px;
     color: #98956A;
     text-transform: uppercase;
@@ -307,8 +307,6 @@ hr{
 .pastry-left-details p {
     margin: 30px 0 0;
 }
-
-
 
 /* Hedieh's Style Start */
 .navBar {
