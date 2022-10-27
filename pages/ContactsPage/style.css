@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F6F3;;
+}
+.main-content{
+    display: flex;
+    padding: 160px 100px 280px;
+    align-items: center;
+}
+
+.contactUs-container{
+    padding-left: 60px;
+
+}
+
+.contactUs-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 0 0 20px;
+}
+
+.contactUs-content p{
+    margin: 0 0 40px;
+}
+    
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+.location{
+    display: flex;
+    align-items: center;
+    
+}
+
+.location img,
+.email img,
+.phone img{
+    padding-right: 30px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.images img {
+    padding-bottom: 25px;
+
+
+}
+
+.img{
+    width: 70px;
+    height: 50px;
+}
