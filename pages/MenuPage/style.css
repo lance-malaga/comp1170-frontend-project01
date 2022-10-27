@@ -1,6 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'BonVivant', sans-serif;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #F9F6F3;
+    color: #212220;
+    margin: 0;
+}
+
+hr{
+    background-color: #212220;
+    border: none;
+    height: 1px;
+}
+
+/* Featured Drink Image */
+.menu-container {
+    padding: 0 100px;
+}
+
+.main-drink-contents {
+    border-top: 3px solid #98956A;
+    border-bottom: 3px solid #98956A;
+    margin-top: 30px;
+}
+
+.background-text {
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 245px;
+}
+
+.background-text h1 {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 160px;
+    text-transform: uppercase;
+    color: #6F6C3C;
+}
+
+#drinkHeader {
+    position: relative;
+    right: 80px;
+}
+
+
+#meHeader {
+    position: relative;
+    left: 244px;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lower Links */
+.lower-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lower-links a {
+    color: #212220;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.lower-links a:hover {
+    color: #a6ac3b;
+}
+
+/* DRINKS MENU */
+#drinkMenu {
+    padding: 0px 300px;
+
+}
+
+/* Signature Drinks */
+.drinks-container {
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.drinks-header h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 70px;
+    line-height: 107px;
+    letter-spacing: -3px;
+    color: #212220;
+
+}
+
+.drinks-header h1 span {
+    margin-left: 200px;
+    font-size: 80px;
+    line-height: 7px;
+    letter-spacing: -3px;
+    color: #98956A;
+    text-transform: uppercase;
+}
+
+#signatureDrinkHeader {
+    /* position: absolute; */
+    /* width: 294px;
+    height: 107px;
+    left: 301px;
+    top: 876px; */
+
+    font-size: 80px;
+    line-height: 107px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    color: #212220;
+    padding-left: 320px;
+}
+
+/* Drink Menu Container */
+.drink-menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drink-left-column {
+    border: 1px solid #212220;
+    padding: 0 15px;
+}
+
+.drink-left-column h3 {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin: 20px 0;
+}
+
+#firstDrink {
+    font-weight: bold;
+}
+
+.drink-right-column {
+    padding: 0 85px 0 30px;
+    width: 330px;
+    font-size: 18px;
+}
+
+.drink-right-column h3 {
+    border-bottom: 3px solid #C8CD49;
+    padding: 0 50px 10px 0;
+    width: fit-content;
+    padding-right: 50px;
+    margin: 10px 0 0;
+}
+
+.drink-right-details p {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.maple-drink {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+}
+
+.mapleDrink {
+    position: absolute;
+    margin-top: 22px;
+}
+
+/* Dessert Section | Menu List */
+.pastry-contents{
+    padding-bottom: 200px;
+}
+
+.pastry-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-pastry-header {
+    height: 185px;
+}
+
+.right-pastry-header h1 {
+    height: 107px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#freshly {
+    margin-top: 20px;
+}
+
+#baked {
+    color: #98956A;
+    text-transform: uppercase ;
+    margin: -15px 105px 0 0;
+    font-size: 80px;
+    line-height: 30px;
+}
+
+.text-pastry-background {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.pastry-right-column {
+    margin: 0;
+    border: 1px solid #212220;
+    width: 230px;
+    text-align: right;
+    padding: 20px 15px;
+}
+
+.pastry-right-column h3 {
+    font-weight: normal;
+}
+
+#firstPastry {
+    font-weight: bold;
+}
+
+.text-pastry-background h1 {
+    margin: 0;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+#pastries1 {
+    color: #212220;
+    line-height: 1;
+}
+
+#pastries2 {
+    color: #6F6C3C;
+    line-height: 1;
+}
+
+#pastries3 {
+    color: #98956A;
+    line-height: 1;
+}
+
+.pastry-menu-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pastry-left-column {
+    width: 330px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pastry-menu {
+    width: 330px;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.pastry-menu h3 {
+    border-bottom: 3px solid #C8CD49;
+    margin: 10px 0 30px auto;
+    width: fit-content;
+    padding: 0 0 10px 50px;
+}
+
+.pastry-menu p {
+    margin: 0;
+}
+
+.pastry-left-column img{
+    position: absolute;
+}
+
+.pastry-left-details {
+    margin: 0;
+    margin-top: 25px;
 }
 
 
