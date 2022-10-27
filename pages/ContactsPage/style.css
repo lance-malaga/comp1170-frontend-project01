@@ -1,3 +1,50 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F6F3;;
+}
+
+/* Ivona's Style Start */
+.main-content{
+    display: flex;
+    padding: 150px 100px 230px;
+    align-items: center;
+}
+
+.contactUs-container{
+    padding-left: 60px;
+
+}
+
+.contactUs-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 0 0 20px;
+}
+
+.contactUs-content p{
+    margin: 0 0 40px;
+}
+    
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo div {
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 35px;
+    padding-right: 25px;
+}
+/* Ivona's Style End */
+
 /* Hedieh's Style Start */
 .navBar {
     display: flex;
@@ -28,4 +75,63 @@
 .contactLink {
     border-bottom: 5px solid #C8CD49 !important;
 }
-/* Hedieh's Styles End */ 
+/* Hedieh's Styles End */
+
+/* Alex's Styles Start */
+.imageHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.imageHolder img {
+    width: 33.33%;
+}
+
+/* footer */
+.footerContent {
+    background-color: #79450B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0 85px;
+    color: #F9F6F3;
+}
+
+.footerContent img:first-child {
+    cursor: pointer;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: #F9F6F3;
+    cursor: pointer;
+    transition: color .3s;
+    padding-bottom: 20px;
+}
+
+.linkContainer a:hover {
+    color: #a6ac3b;
+}
+
+.linkContainer a:last-child {
+    padding: 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons img {
+    cursor: pointer;
+}
+
+.socialIcons img:nth-child(2) {
+    padding: 0 25px;
+}
+/* Alex's Styles End */

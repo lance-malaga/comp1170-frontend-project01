@@ -1,20 +1,13 @@
-@font-face {
-    font-family: 'BonVivant Bold';
-    src: url(../../assets/fonts/BonVivantSerif-Bold.otf);
-}
-
-@font-face {
-    font-family: 'BonVivant';
-    src: url(../../assets/fonts/BonVivantSerif.otf);
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'BonVivant', sans-serif;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     background-color: #F9F6F3;
+    color: #212220;
     margin: 0;
-    
-    padding: 0 100px;
 }
 
 hr{
@@ -22,11 +15,16 @@ hr{
     border: none;
     height: 1px;
 }
+
 /* Featured Drink Image */
+.menu-container {
+    padding: 0 100px;
+}
+
 .main-drink-contents {
-    border-top: 1px solid #6F6C3C;
-    border-bottom: 1px solid #6F6C3C;
-    margin-top: 70px;
+    border-top: 3px solid #98956A;
+    border-bottom: 3px solid #98956A;
+    margin-top: 30px;
 }
 
 .background-text {
@@ -67,17 +65,18 @@ hr{
 .lower-links {
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    margin-top: 20px;
 }
 
 .lower-links a {
-    display: flex;
-    justify-content: center;
+    color: #212220;
     text-decoration: none;
+    transition: color .3s;
 }
 
-/* POPULAR PICKS */
-#popularMenu {}
+.lower-links a:hover {
+    color: #a6ac3b;
+}
 
 /* DRINKS MENU */
 #drinkMenu {
@@ -85,18 +84,11 @@ hr{
 
 }
 
-/* DESSERT MENU */
-#dessertMenu {}
-
-
-
 /* Signature Drinks */
-/* .drinks-header{
-    display: flex;
-} */
 .drinks-container {
     padding-bottom: 150px;
     display: flex;
+    align-items: center;
 }
 
 .drinks-header h1 {
@@ -106,7 +98,7 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 107px;
     letter-spacing: -3px;
     color: #212220;
@@ -114,8 +106,8 @@ hr{
 }
 
 .drinks-header h1 span {
-    margin-left: 298px;
-    font-size: 70px;
+    margin-left: 200px;
+    font-size: 80px;
     line-height: 7px;
     letter-spacing: -3px;
     color: #98956A;
@@ -138,25 +130,21 @@ hr{
 }
 
 /* Drink Menu Container */
-
 .drink-menu-container {
-    /* position: absolute; */
-    /* width: 230.41px;
-    height: 260px;
-    left: 115px;
-    top: 1030px; */
     display: flex;
     justify-content: space-between;
 }
 
 .drink-left-column {
     border: 1px solid #212220;
-    padding: 15px;
-    width: 260px;
+    padding: 0 15px;
 }
 
 .drink-left-column h3 {
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin: 20px 0;
 }
 
 #firstDrink {
@@ -166,22 +154,27 @@ hr{
 .drink-right-column {
     padding: 0 85px 0 30px;
     width: 330px;
+    font-size: 18px;
 }
 
 .drink-right-column h3 {
     border-bottom: 3px solid #C8CD49;
+    padding: 0 50px 10px 0;
+    width: fit-content;
+    padding-right: 50px;
+    margin: 10px 0 0;
 }
 
 .drink-right-details p {
     margin: 0;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .maple-drink {
     display: flex;
     justify-content: center;
-    left: 267px;
-    bottom: 60px;
+    align-items: flex-start;
+    margin-left: auto;
 }
 
 .mapleDrink {
@@ -189,7 +182,7 @@ hr{
     margin-top: 22px;
 }
 
-/* Dessert Section| Menu List */
+/* Dessert Section | Menu List */
 .pastry-contents{
     padding-bottom: 200px;
 }
@@ -200,19 +193,17 @@ hr{
     justify-content: space-between;
 }
 
+.right-pastry-header {
+    height: 185px;
+}
+
 .right-pastry-header h1 {
-    /* width: 263px; */
     height: 107px;
-    top: 1544px;
-    left: 838px;
     font-family: 'Playfair Display';
     font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 107px;
+    font-size: 70px;
     letter-spacing: -3px;
-    color: #212220;
-    margin: 20px 0 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -220,27 +211,21 @@ hr{
 }
 
 #freshly {
-    line-height: 2.5;
+    margin-top: 20px;
 }
 
 #baked {
     color: #98956A;
     text-transform: uppercase ;
-    margin: 0%;
-    margin-right: 105px;
-
+    margin: -15px 105px 0 0;
+    font-size: 80px;
+    line-height: 30px;
 }
 
 .text-pastry-background {
     font-family: 'Playfair Display';
-    font-style: normal;
     font-weight: 700;
     font-size: 70px;
-    line-height: 160px;
-    /* text-transform: uppercase; */
-    width: 360px;
-    height: 300px;
-    /* margin-top: 350px; */
 }
 
 .pastry-right-column {
@@ -288,22 +273,26 @@ hr{
 .pastry-left-column {
     width: 330px;
     padding-left: 20px;
-    align-content: center;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .pastry-menu {
     width: 330px;
-    padding-left: 20px;
-    align-content: center;
-    justify-content: flex-start;
     text-align: right;
     margin-right: 30px;
+    font-size: 18px;
 }
 
 .pastry-menu h3 {
     border-bottom: 3px solid #C8CD49;
+    margin: 10px 0 30px auto;
+    width: fit-content;
+    padding: 0 0 10px 50px;
+}
+
+.pastry-menu p {
+    margin: 0;
 }
 
 .pastry-left-column img{
@@ -346,4 +335,63 @@ hr{
 .menuLink {
     border-bottom: 5px solid #C8CD49 !important;
 }
-/* Hedieh's Styles End */ 
+/* Hedieh's Styles End */
+
+/* Alex's Styles Start */
+.imageHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.imageHolder img {
+    width: 33.33%;
+}
+
+/* footer */
+.footerContent {
+    background-color: #79450B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0 85px;
+    color: #F9F6F3;
+}
+
+.footerContent img:first-child {
+    cursor: pointer;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: #F9F6F3;
+    cursor: pointer;
+    transition: color .3s;
+    padding-bottom: 20px;
+}
+
+.linkContainer a:hover {
+    color: #a6ac3b;
+}
+
+.linkContainer a:last-child {
+    padding: 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons img {
+    cursor: pointer;
+}
+
+.socialIcons img:nth-child(2) {
+    padding: 0 25px;
+}
+/* Alex's Styles End */
