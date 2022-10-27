@@ -11,12 +11,9 @@
 body {
     font-family: 'BonVivant', sans-serif;
     font-size: 12px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     background-color: #F9F6F3;
     margin: 0;
+    
     padding: 0 100px;
 }
 
@@ -247,11 +244,6 @@ hr{
 }
 
 .pastry-right-column {
-    /* position: absolute; */
-    /* width: 230.41px;
-    height: 260px;
-    left: 935px;
-    top: 1689.49px; */
     margin: 0;
     border: 1px solid #212220;
     width: 230px;
@@ -260,11 +252,6 @@ hr{
 }
 
 .pastry-right-column h3 {
-    /* position: absolute; */
-    /* width: 635px;
-    height: 387px;
-    left: 93px;
-    top: 1625px; */
     font-weight: normal;
 }
 
@@ -310,7 +297,6 @@ hr{
     width: 330px;
     padding-left: 20px;
     align-content: center;
-    /* display: flex; */
     justify-content: flex-start;
     text-align: right;
     margin-right: 30px;
@@ -328,5 +314,36 @@ hr{
     margin: 0;
     margin-top: 25px;
 }
-/*     border-bottom: 2px solid green;
-    padding-bottom: 10px; */
+
+
+
+/* Hedieh's Style Start */
+.navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #212220;
+    transition: color .3s;
+    border-bottom: 5px solid transparent;
+}
+
+.navBar a:hover {
+    color: #a6ac3b;
+}
+
+.menuLink {
+    border-bottom: 5px solid #C8CD49 !important;
+}
+/* Hedieh's Styles End */ 
