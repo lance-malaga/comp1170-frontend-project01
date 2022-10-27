@@ -1,3 +1,50 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F6F3;;
+}
+
+/* Ivona's Style Start */
+.main-content{
+    display: flex;
+    padding: 150px 100px 230px;
+    align-items: center;
+}
+
+.contactUs-container{
+    padding-left: 60px;
+
+}
+
+.contactUs-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 0 0 20px;
+}
+
+.contactUs-content p{
+    margin: 0 0 40px;
+}
+    
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo div {
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 35px;
+    padding-right: 25px;
+}
+/* Ivona's Style End */
+
 /* Hedieh's Style Start */
 .navBar {
     display: flex;
