@@ -1,13 +1,37 @@
-@font-face {
-    font-family: 'BonVivant Bold';
-    src: url(../../assets/fonts/BonVivantSerif-Bold.otf);
-}
-@font-face {
-    font-family: 'BonVivant';
-    src: url(../../assets/fonts/BonVivantSerif.otf);
-}
-
 body {
     font-family: 'BonVivant', sans-serif;
     font-size: 12px;
 }
+
+
+
+/* Hedieh's Style Start */
+.navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #212220;
+    transition: color .3s;
+    border-bottom: 5px solid transparent;
+}
+
+.navBar a:hover {
+    color: #a6ac3b;
+}
+
+.menuLink {
+    border-bottom: 5px solid #C8CD49 !important;
+}
+/* Hedieh's Styles End */ 
