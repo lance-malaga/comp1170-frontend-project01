@@ -145,6 +145,12 @@ hr{
     font-size: 16px;
     text-align: right;
     margin: 20px 0;
+    transition: color 0.3s ease 0s;
+}
+
+.drink-left-column h3:hover {
+    color: #a6ac3b ;
+    cursor: pointer;
 }
 
 #firstDrink {
@@ -233,11 +239,17 @@ hr{
     border: 1px solid #212220;
     width: 230px;
     text-align: right;
-    padding: 20px 15px;
+    padding: 0px 15px;
 }
 
 .pastry-right-column h3 {
     font-weight: normal;
+    transition: color 0.3s ease 0s;
+}
+
+.pastry-right-column h3:hover{
+    color: #a6ac3b ;
+    cursor: pointer;   
 }
 
 #firstPastry {
