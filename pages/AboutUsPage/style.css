@@ -5,6 +5,35 @@ body {
     background-color: #F9F6F3;;
 }
 
+.main-content {
+    text-align: center;
+    padding: 80px 0 95px;
+}
+
+.main-content h1 {
+font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 70px;
+margin: 0px 0px 22px;
+
+}
+.main-content p {
+width: 518px;
+margin: 0 auto;
+font-size: 18px;
+margin-bottom: 40px;
+}
+
+.team-image {
+    display: flex;
+    justify-content:center;
+}
+
+.team-image img:nth-child(2) {
+    padding: 0 65px;
+}
+
+
 /* Hedieh's Style Start */
 /* Nav Bar */
 .navBar {
