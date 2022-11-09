@@ -121,7 +121,7 @@ body {
 .leftContent h1 {
     margin: 0 0 30px;
     position: absolute;
-    bottom: -200px;
+    bottom: -325px;
     margin-left: 45px;
     z-index: 1;
 }
@@ -135,7 +135,7 @@ body {
     width: 469px;
     height: 38px;
     margin-left: 150px;
-    bottom: -170px;
+    bottom: -300px;
     background: #C8CD49;
 }
 
